@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2febb5ec-43ca-40a5-abe2-c49fe40d21e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphAlgorithms/findMode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphAlgorithms/heap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphAlgorithms/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphAlgorithms/minAbsolute.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphAlgorithms/up_heapify.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphAlgorithms/dfs.py" afterPath="$PROJECT_DIR$/graphAlgorithms/dfs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="SampleApplicationPython.iws" />
     <ignored path=".idea/workspace.xml" />
