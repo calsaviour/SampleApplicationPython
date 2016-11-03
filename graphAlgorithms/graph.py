@@ -185,16 +185,16 @@ class Graph(object):
         ret_list = [node.value]
         # Your code here
         queue = []
-        origin = node.value
         queue.append(node)
         while len(queue):
             _node = queue.pop(0)
-            if _node.visited == False:
-                _node.visited = True
-                if _node.value == origin:
-                    ret_list.append(_node.value)
-                    queue.append(_node.edges)
-
+            origin = _node.value
+            _node.visited = True
+            for edge in _node.edges:
+                if edge.node_from.value == origin and edge.node_to.visited != True:
+                    edge.node_to.visited = True
+                    ret_list.append(edge.node_to.value)
+                    queue.append(edge.node_to)
         return ret_list
 
     def bfs_names(self, start_node_num):
